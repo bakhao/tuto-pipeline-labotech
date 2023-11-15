@@ -30,8 +30,5 @@ jobs:
       run: pytest
 
   Deploy:
-    runs-on: ubuntu-latest
-    steps:
-    - name: Start Deployment
-    - run: echo "Deploy une application python sur aws"
+
 
